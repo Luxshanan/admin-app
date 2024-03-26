@@ -8,19 +8,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import { AuthProvider } from "@asgardeo/auth-react";
+import { default as authProviderConfig } from "./config.json";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AuthProvider
-      config={{
-        signInRedirectURL: "https://localhost",
-        signOutRedirectURL: "https://localhost",
-        clientID: "fRunM7CicTg2usvlKffis1OPcdMa",
-        baseUrl: "https://api.asgardeo.io/t/lcorp",
-        scope: [ "profile", "openid"]
-      }}
-    >
+    <AuthProvider config={authProviderConfig} >
       <App />
     </AuthProvider>
 
