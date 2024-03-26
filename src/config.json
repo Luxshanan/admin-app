@@ -1,7 +1,7 @@
 {
-    "clientID": "",
-    "baseUrl": "",
-    "signInRedirectURL": "",
-    "signOutRedirectURL": "",
+    "clientID": "fRunM7CicTg2usvlKffis1OPcdMa",
+    "baseUrl": "https://api.asgardeo.io/t/lcorp",
+    "signInRedirectURL": "https://03265fe9-dbcb-4c00-8d43-a8a3c75b7185.e1-us-cdp-2.choreoapps.dev",
+    "signOutRedirectURL": "https://03265fe9-dbcb-4c00-8d43-a8a3c75b7185.e1-us-cdp-2.choreoapps.dev",
     "scope": ["openid","profile"]
 }
