@@ -14,9 +14,9 @@ root.render(
   <React.StrictMode>
     <AuthProvider
       config={{
-        signInRedirectURL: "http://localhost:3000",
-        signOutRedirectURL: "http://localhost:3000",
-        clientID: "uxFn1G0PICDPdp46pfkwkCNoQ9Ua",
+        signInRedirectURL: "https://localhost",
+        signOutRedirectURL: "https://localhost",
+        clientID: "fRunM7CicTg2usvlKffis1OPcdMa",
         baseUrl: "https://api.asgardeo.io/t/lcorp",
         scope: [ "profile", "openid"]
       }}
