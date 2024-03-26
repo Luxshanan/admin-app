@@ -1,45 +1,25 @@
-import React, { Component } from 'react';
-
+import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-
 import NavigationBar from '../NavigationBar/NavigationBar';
+import DefaultHome from '../DefaultHome/DefaultHome';
 
 
+function Layout() {
 
-
-
-class Layout extends Component {
-
-
-    state = {
-       
-    }
-
-    componentDidMount() {
-        
-    }
-
-    render() {
-       
-        return (
-            <>
-                <BrowserRouter>
-                    <NavigationBar  />
-                    <br /><br />
-
-                    <Routes>
-
+    return (
+        <>
+            <BrowserRouter>
+                <NavigationBar />
+                <br /><br />
+                <Routes>
+                    <Route path='/' element={ <DefaultHome />} />
                     
-                    </Routes>
+                </Routes>
+            </BrowserRouter>
+        </>
+    );
 
-
-                </BrowserRouter>
-
-            </>
-
-        );
-    }
 }
 
 export default Layout;

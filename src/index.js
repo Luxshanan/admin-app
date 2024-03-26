@@ -16,9 +16,9 @@ root.render(
       config={{
         signInRedirectURL: "http://localhost:3000",
         signOutRedirectURL: "http://localhost:3000",
-        clientID: "U2TbTmJ0ksNw4jBUKsijhy8XSA0a",
+        clientID: "uxFn1G0PICDPdp46pfkwkCNoQ9Ua",
         baseUrl: "https://api.asgardeo.io/t/lcorp",
-        scope: [ "profile", "openid",]
+        scope: [ "profile", "openid"]
       }}
     >
       <App />
